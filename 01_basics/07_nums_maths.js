@@ -13,3 +13,10 @@ console.log(otherNumber.toPrecision(3))//Returns a string containing a number re
 
 const hundreds = 1000000
 console.log(hundreds.toLocaleString('en-IN'))//Converts a number to a string by using the current or specified locale
+
+
+console.log(Number.MAX_VALUE)
+console.log(Number.MIN_VALUE)//there are much more properties
+
+
+//++++++++++++++++++++++++++Maths+++++++++++++++++++++++++++++++
