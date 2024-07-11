@@ -18,5 +18,9 @@ console.log(hundreds.toLocaleString('en-IN'))//Converts a number to a string by 
 console.log(Number.MAX_VALUE)
 console.log(Number.MIN_VALUE)//there are much more properties
 
+//JavaScript will try to convert strings to numbers in all numeric operations:
+
+
+
 
 //++++++++++++++++++++++++++Maths+++++++++++++++++++++++++++++++

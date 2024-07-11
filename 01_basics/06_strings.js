@@ -1,4 +1,4 @@
-const name = "hitesh"
+const name = "hitesh" //String //Use backticks instead of quotes
 const repoCount = 50
 
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`)//Modern syntax instead of using Concatenation
@@ -37,7 +37,7 @@ console.log(newStr); // Hi
 
 let str = "I am a good boy"
 let words = str.split(' ')
-console.log(typeof words) //Returning an Array ,which is a object
+console.log(typeof words) //Returning an Array ,which is an object
 console.log(words)  //[ 'I', 'am', 'a', 'good', 'boy' ]
 
 
@@ -46,3 +46,15 @@ console.log(words)  //[ 'I', 'am', 'a', 'good', 'boy' ]
 let name1 = 'John';
 let greeting = `Hello, ${name1}!`;
 console.log(greeting); // Hello, John!
+
+// Strings and objects cannot be safely compared.
+let str2 = `John`
+let str3 = new String(`John`)
+console.log(str2==str3)//true
+console.log(str2===str3)//false
+
+
+//Comparing two JavaScript objects always returns false. 
+let x = new String("John");
+let y = new String("John");
+

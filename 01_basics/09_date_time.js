@@ -8,6 +8,18 @@ console.log(mydate.toDateString())
 console.log(mydate.toLocaleDateString())
 console.log(mydate.getTimezoneOffset())
 console.log(mydate.toTimeString())
+console.log(mydate.toJSON())
+console.log(mydate.toLocaleString())
+
+mydate.toLocaleString('default',{
+    weekday:'long',
+    
+})
+
+
+
+
+
 
 
 
