@@ -58,3 +58,31 @@ console.log(str2===str3)//false
 let x = new String("John");
 let y = new String("John");
 
+
+let text = "Please locate where 'locate' occurs!";
+text.indexOf("locate", 15);//Search for the first occurence
+//Here 15 is the start position of the search ..we can also omit this part
+
+//text.lastIndexOf("locate", 15); //Search for last occurence and returns the index
+
+//To replace case insensitive, use a regular expression with an /i flag (insensitive):
+// To replace all matches, use a regular expression with a /g flag (global match):
+
+Example
+
+// The search() method searches a string for a string (or a regular expression) and returns the position of the match:
+let text1 = "Please locate where 'locate' occurs!";
+text1.search("locate");
+
+
+
+
+
+// The two methods, indexOf() and search(), are equal?
+
+// They accept the same arguments (parameters), and return the same value?
+
+// The two methods are NOT equal. These are the differences:
+
+// The search() method cannot take a second start position argument.
+// The indexOf() method cannot take powerful search values (regular expressions).
