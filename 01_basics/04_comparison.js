@@ -12,6 +12,9 @@ console.log(null >= 0)
 console.log(undefined==0)
 console.log(null > 0)
 console.log(null >= 0)//Always results as false even if you do any other comparison
+console.log(null == undefined);//true
+console.log(null === undefined);//false
+
 
 
 // Strict Equality (===): No type conversion is performed. Both the value and the type must be the same for the comparison to return true.
