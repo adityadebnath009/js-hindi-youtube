@@ -14,5 +14,9 @@ console.log(null > 0)
 console.log(null >= 0)//Always results as false even if you do any other comparison
 
 
+// Strict Equality (===): No type conversion is performed. Both the value and the type must be the same for the comparison to return true.
+// Loose Equality (==): Type conversion is performed if necessary. The values are converted to a common type before being compared.
+
+
 
 // ===
