@@ -44,5 +44,12 @@ const course = {
 const {Courseinstructor:inst} = course;
 console.log(inst)
 
+const car = {UserName:"Aditya009",Email:"debnath@gmail.com",Password:"Aditya@1947"}
+const {UserName,Email,Password} = car;
+console.log(UserName);
+console.log(Email);
+console.log(Password);
+
+
 
 
