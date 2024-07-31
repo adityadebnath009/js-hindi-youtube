@@ -8,7 +8,7 @@
 // Variables can hold values of different types:
 // You can assign a number to a variable, and later assign a string to the same variable without any issues.
 
-
+//JavaScript try to convert strings to number in all numeric operations.
 const Id =Symbol("123")
 const anotherId = Symbol("123")
 console.log(typeof anotherId)//Type--Symbol
