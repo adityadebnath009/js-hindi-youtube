@@ -10,7 +10,7 @@ let age = 19
 
 //number
 // bigint
-// String-----""
+// String-----""  Strings are immutable in nature.
 // boolean-----true/false
 // null----standalone value
 // undefined
