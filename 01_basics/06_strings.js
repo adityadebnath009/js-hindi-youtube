@@ -76,7 +76,7 @@ text1.search("locate");
 
 
 
-
+// Strings, as we know, are primitives as well and are likewise immutable too.
 
 // The two methods, indexOf() and search(), are equal?
 
