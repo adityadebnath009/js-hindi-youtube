@@ -21,6 +21,6 @@ let age = 19
 
 console.log(null)
 console.log(undefined)
-//For null, typeof returns 'object'.
+//For null, typeof returns 'object'.//official bug
 //null: Explicitly set by the programmer to indicate "no value".
 //undefined: Indicates that a variable has been declared but not yet assigned a value, or a function parameter that has not been provided.
