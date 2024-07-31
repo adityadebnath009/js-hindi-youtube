@@ -54,7 +54,7 @@ console.log(str2==str3)//true
 console.log(str2===str3)//false
 
 
-//Comparing two JavaScript objects always returns false. 
+//Comparing two JavaScript objects always returns false. (== / ===)
 let x = new String("John");
 let y = new String("John");
 
