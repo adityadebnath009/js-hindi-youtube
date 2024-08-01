@@ -18,7 +18,7 @@ let age = 19
 //JavaScript does NOT work this way. Instead JavaScript is a dynamically-typed language.
 
 //In JavaScript, we don't have to (and in fact, even can't) declare the types of variables upfront. During the course of a program, we can easily change the types of values stored in a variable, and the interpreter won't complaint even for a second.
-
+//adding a number to undefined yields the special number NaN which, when logged, gets displayed literally as 'NaN'.
 console.log(null)
 console.log(undefined)
 //For null, typeof returns 'object'.//official bug
