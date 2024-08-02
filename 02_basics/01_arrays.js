@@ -82,7 +82,7 @@ const citrus1 = fruits.slice(1,3) //["Orange","Lemon"]
 console.log(Array.isArray('[]'));
 // Expected output: false
 
-console.log(Array.isArray(new Array(5)));
+console.log(Array.isArray(new Array(5)));//Create an array of length 5
 // Expected output: true
 
 console.log(Array.isArray(new Int16Array([15, 33])));
@@ -105,3 +105,6 @@ const courses = ["HTML", "CSS", "Javascript"];
 console.log("Using Array.isArray() method: ", Array.isArray(courses))
 console.log("Using instanceof method: ", courses instanceof Array)//objectName instanceof ObjectType
 
+
+
+//For instance, new Array(5) would NOT create the array [5] but rather an array whose length is 5, comprised of 5 empty slots.
