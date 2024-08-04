@@ -98,7 +98,10 @@ console.log(Array.isArray(new Int16Array([15, 33])));
  console.log(Array.from(score1,score2,score3))
  console.log(Array.of(score1,score2,score3))
 
-
+//Array.of is used to create an array from a list of arguments(even if a singlr argument is passed)
+//Array.from is used to create an array from an array-like or iterable object.(string,array,set,map,multiple arguments)
+//Throws error Array.from(124)
+//Not an issue  Array.of(124)  //[124]
 
 
 const courses = ["HTML", "CSS", "Javascript"];
