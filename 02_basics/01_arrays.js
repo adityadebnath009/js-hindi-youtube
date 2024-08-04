@@ -99,7 +99,7 @@ console.log(Array.isArray(new Int16Array([15, 33])));
  console.log(Array.of(score1,score2,score3))
 
 //Array.of is used to create an array from a list of arguments(even if a singlr argument is passed)
-//Array.from is used to create an array from an array-like or iterable object.(string,array,set,map,multiple arguments)
+//Array.from is used to create an array from an array-like or iterable object.(string,array,set,map,multiple arguments)Array.from('Aditya')
 //Throws error Array.from(124)
 //Not an issue  Array.of(124)  //[124]
 
@@ -107,7 +107,7 @@ console.log(Array.isArray(new Int16Array([15, 33])));
 const courses = ["HTML", "CSS", "Javascript"];
 console.log("Using Array.isArray() method: ", Array.isArray(courses))
 console.log("Using instanceof method: ", courses instanceof Array)//objectName instanceof ObjectType
-
+//The return value of fill() is the filled array. Note that fill() mutates the original array.
 
 
 //For instance, new Array(5) would NOT create the array [5] but rather an array whose length is 5, comprised of 5 empty slots.
